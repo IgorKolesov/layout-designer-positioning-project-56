@@ -8,4 +8,17 @@
         font-size: 18px;
         line-height: 27px;
     }
+
+
+    #page-description{
+        padding: 250px 0 200px 0;
+    }
+
+    #page-description .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+
+    
 }

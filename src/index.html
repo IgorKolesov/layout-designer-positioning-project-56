@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music IgorKolesov</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
+
 <body>
-    
+    <div class="header">
+        <div class="navigation-wrp">
+            <div class="logo-wrp">
+                <a href="/" class="link links-wrp">
+                    <img class="logo" src="images/logo.svg" alt="">
+                    <p class="link">Music box</p>
+                </a>
+            </div>
+            <nav class="links-wrp">
+                <a href="/" class="link active-link">Главная</a>
+                <a href="/" class="link">Каталог</a>
+                <a href="/" class="link">Исполнители</a>
+                <a href="/" class="link">Контакты</a>
+            </nav>
+        </div>
+        <div class="input-wrp search-wrp">
+            <input type="text" class="search" name="search" id="search">
+            <label for="search">Поиск...</label>
+        </div>
+    </div>
+    <section id="page-description" class="bg-img">
+        <div class="container">
+            <h1>Онлайн музыка где угодно</h1>
+            <h2>Без ограничений</h2>
+            <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+
+            <div class="form-wrp">
+                <div class="input-wrp">
+                    <input type="text" name="name" id="name">
+                    <label for="name">Имя</label>
+                </div>
+                <div class="input-wrp">
+                    <input type="email" name="email" id="email">
+                    <label for="email">Email</label>
+                </div>
+
+                <button type="submit" class="btn">Получить доступ</button>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
